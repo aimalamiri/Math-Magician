@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magician
 
 > This is a calculator project for math lovers built with ReactJS.
 
