@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.btn {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 1.2rem;
+  width: 100%;
+  border: solid #eee 1px; 
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.bg-orange {
+  background-color: #f5913e;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.grid {
+  display: grid;
+}
+
+.cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.span-2 {
+  grid-column: span 2;
+}
