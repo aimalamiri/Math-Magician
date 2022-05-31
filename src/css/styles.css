@@ -83,11 +83,19 @@ input {
   font-size: 0.9rem;
 }
 
+.text-xl {
+  font-size: 1.2rem;
+}
+
+.calculator {
+  width: 100%;
+  padding-left: 0;
+}
+
 @media screen and (min-width: 768px) {
   .calculator {
-    max-width: 768px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 50%;
+    padding-left: 1rem;
   }
 
   .container {
@@ -103,8 +111,16 @@ input {
     font-size: 1.1rem;
   }
 
+  .text-xl {
+    font-size: 1.5rem;
+  }
+
   .gap {
     column-gap: 0.5rem;
+  }
+
+  .sm\:w-half {
+    width: 50%;
   }
 }
 
@@ -118,6 +134,10 @@ input {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .py-2 {
@@ -138,5 +158,9 @@ input {
 }
 
 .w-full {
+  width: 100%;
+}
+
+.sm:w-half {
   width: 100%;
 }
