@@ -87,6 +87,10 @@ input {
   font-size: 1.2rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+}
+
 .calculator {
   width: 100%;
   padding-left: 0;
@@ -115,6 +119,10 @@ input {
     font-size: 1.5rem;
   }
 
+  .text-2xl {
+    font-size: 2rem;
+  }
+
   .gap {
     column-gap: 0.5rem;
   }
@@ -136,6 +144,10 @@ input {
   justify-content: space-between;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -154,13 +166,17 @@ input {
 }
 
 .shadow {
-  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.35);
 }
 
 .w-full {
   width: 100%;
 }
 
-.sm:w-half {
-  width: 100%;
+.h-full {
+  height: 80vh;
+}
+
+.text-center {
+  text-align: center;
 }
