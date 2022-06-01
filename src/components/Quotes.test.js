@@ -5,4 +5,3 @@ it('Quotes renders correctly', () => {
   const tree = renderer.create(<Quotes />).toJSON();
   expect(tree).toMatchSnapshot();
 });
-

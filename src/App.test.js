@@ -7,7 +7,7 @@ it('App renders correctly', () => {
     .create(
       <MemoryRouter>
         <App />
-      </MemoryRouter>
+      </MemoryRouter>,
     )
     .toJSON();
   expect(tree).toMatchSnapshot();

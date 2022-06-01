@@ -1,5 +1,5 @@
-import { render } from '@testing-library/react';
 import operate from './operate';
+
 describe('Test the operate logic code', () => {
   it('Sould add two numbers', () => {
     expect(operate(4, 5, '+')).toEqual('9');

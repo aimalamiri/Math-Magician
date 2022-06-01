@@ -1,5 +1,5 @@
-import { render } from '@testing-library/react';
 import calculate from './calculate';
+
 describe('Operations of the calculator', () => {
   let data;
   beforeEach(() => {
