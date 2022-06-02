@@ -1,12 +1,13 @@
-import renderer from 'react-test-renderer';
+import React from 'react';
 import { MemoryRouter } from 'react-router-dom';
-import App from './App';
+import renderer from 'react-test-renderer';
+import Navigation from './Navigation';
 
-it('App renders correctly', () => {
+it('Home renders correctly', () => {
   const tree = renderer
     .create(
       <MemoryRouter>
-        <App />
+        <Navigation />
       </MemoryRouter>,
     )
     .toJSON();
